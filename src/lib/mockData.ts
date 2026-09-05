@@ -15,7 +15,7 @@ export const mockWorkshops = [
       '/certifications/ims-ghaziabad-lor.jpg'
     ],
     recommendations: [
-      '/certifications/ims-ghaziabad-lor.jpg'
+      { image: '/certifications/ims-ghaziabad-lor.jpg', org: 'IMS Engineering College', ref: '30 Jul 2024' }
     ],
     content: `Excited to share a letter of recommendation highlighting my involvement in drone and robotics projects. Thank you, Dr. Pramod Singh, for your mentorship and support. Looking forward to continuing my journey in this field.`
   },
@@ -36,8 +36,8 @@ export const mockWorkshops = [
       '/certifications/maha-kumbh-lor.jpg'
     ],
     recommendations: [
-      '/certifications/maha-kumbh-lor.jpg',
-      '/certifications/maha-kumbh-certificate.jpg'
+      { image: '/certifications/maha-kumbh-lor.jpg', org: 'Reviving India', ref: '18 Sep 2024' },
+      { image: '/certifications/maha-kumbh-certificate.jpg', org: 'Maha Kumbh-24', ref: 'Certificate of Appreciation' }
     ],
     content: `Honored to be recognized for my dedication and hard work at the Maha Kumbh-24 Drone and Robotics Show. 
 
