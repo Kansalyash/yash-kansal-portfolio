@@ -199,6 +199,15 @@ export default function ResumePage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="border border-accent/30 overflow-hidden rounded-xl shadow-lg">
             {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/certifications/ims-ghaziabad-lor.jpg" alt="IMS Engineering College - Letter of Recommendation" className="w-full h-auto" />
+            <div className="p-5 bg-card">
+              <div className="text-xs font-mono text-accent uppercase tracking-widest mb-1">IMS Engineering College · Ghaziabad</div>
+              <div className="text-xs font-mono text-muted">Dr. Pramod Singh, HoD ECE · 30 Jul 2024</div>
+              <p className="text-sm text-muted mt-3 leading-relaxed">"Yash shared his knowledge with clarity and enthusiasm, displaying his extraordinary competence and love for drones... He is a priceless asset to any team because of his technical expertise and great communication skills."</p>
+            </div>
+          </div>
+          <div className="border border-accent/30 overflow-hidden rounded-xl shadow-lg">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/certifications/maha-kumbh-lor.jpg" alt="Reviving India - Letter of Recommendation" className="w-full h-auto" />
             <div className="p-5 bg-card">
               <div className="text-xs font-mono text-accent uppercase tracking-widest mb-1">Reviving India · CIMAGE College</div>

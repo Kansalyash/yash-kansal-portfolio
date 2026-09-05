@@ -1,5 +1,25 @@
 export const mockWorkshops = [
   {
+    slug: 'ims-ghaziabad-drone-workshop',
+    title: 'Drone Assembly and Flying Workshop',
+    institution: 'IMS Engineering College',
+    location: 'Ghaziabad, UP',
+    date: 'July 2024',
+    duration: '2 Days',
+    audience: 'B.Tech and MCA Students',
+    attendees: 120,
+    topics: ['Drone Assembly', 'Simulation', 'Flying Sessions', 'IoT & Robotics'],
+    hardware: ['Drone Kits', 'Flight Controllers', 'IoT Sensors'],
+    coverImage: '/certifications/ims-ghaziabad-lor.jpg',
+    gallery: [
+      '/certifications/ims-ghaziabad-lor.jpg'
+    ],
+    recommendations: [
+      '/certifications/ims-ghaziabad-lor.jpg'
+    ],
+    content: `Excited to share a letter of recommendation highlighting my involvement in drone and robotics projects. Thank you, Dr. Pramod Singh, for your mentorship and support. Looking forward to continuing my journey in this field.`
+  },
+  {
     slug: 'maha-kumbh-cimage-patna',
     title: 'Maha Kumbh-24 Drone and Robotics Show',
     institution: 'CIMAGE College',
