@@ -1,5 +1,29 @@
 export const mockWorkshops = [
   {
+    slug: 'maha-kumbh-cimage-patna',
+    title: 'Maha Kumbh-24 Drone and Robotics Show',
+    institution: 'CIMAGE College',
+    location: 'Patna, Bihar',
+    date: 'September 2024',
+    duration: '1 Day',
+    audience: 'Students, Faculty & Tech Enthusiasts',
+    attendees: 500,
+    topics: ['Drone Technology', 'Robotics Demonstration', 'Public Engagement', 'Tech Exhibition'],
+    hardware: ['Custom Drones', 'Robotics Kits'],
+    coverImage: '/certifications/maha-kumbh-certificate.jpg',
+    gallery: [
+      '/certifications/maha-kumbh-certificate.jpg',
+      '/certifications/maha-kumbh-lor.jpg'
+    ],
+    recommendations: [
+      '/certifications/maha-kumbh-lor.jpg',
+      '/certifications/maha-kumbh-certificate.jpg'
+    ],
+    content: `Honored to be recognized for my dedication and hard work at the Maha Kumbh-24 Drone and Robotics Show. 
+
+As part of the **Reviving India Team**, I had the privilege of showcasing innovative projects and engaging with a diverse audience. Thank you to everyone who made this experience possible.`
+  },
+  {
     slug: 'drone-uav-building-iit-guwahati',
     title: 'Drone/UAV Building Workshop',
     institution: 'IIT Guwahati',

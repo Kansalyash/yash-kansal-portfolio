@@ -199,6 +199,24 @@ export default function ResumePage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="border border-accent/30 overflow-hidden rounded-xl shadow-lg">
             {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/certifications/maha-kumbh-lor.jpg" alt="Reviving India - Letter of Recommendation" className="w-full h-auto" />
+            <div className="p-5 bg-card">
+              <div className="text-xs font-mono text-accent uppercase tracking-widest mb-1">Reviving India · CIMAGE College</div>
+              <div className="text-xs font-mono text-muted">18 Sep 2024</div>
+              <p className="text-sm text-muted mt-3 leading-relaxed">"His in-depth knowledge of drone technology and robotics allowed him to not only successfully showcase advanced projects but also to engage with the audience, making complex concepts accessible... I strongly recommend YASH KANSAL without reservation."</p>
+            </div>
+          </div>
+          <div className="border border-accent/30 overflow-hidden rounded-xl shadow-lg">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/certifications/maha-kumbh-certificate.jpg" alt="Certificate of Appreciation - Maha Kumbh" className="w-full h-auto" />
+            <div className="p-5 bg-card">
+              <div className="text-xs font-mono text-accent uppercase tracking-widest mb-1">Certificate of Appreciation</div>
+              <div className="text-xs font-mono text-muted">Maha Kumbh-24 Drone and Robotics Show</div>
+              <p className="text-sm text-muted mt-3 leading-relaxed">"In recognition of outstanding contribution to the successful demonstration of Drone and Robotics technology at Mahakumbh, CIMAGE College, Patna."</p>
+            </div>
+          </div>
+          <div className="border border-accent/30 overflow-hidden rounded-xl shadow-lg">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/certifications/sgt-recommendation-1.jpg" alt="SGT University Recommendation - Skyward Dynamics" className="w-full h-auto" />
             <div className="p-5 bg-card">
               <div className="text-xs font-mono text-accent uppercase tracking-widest mb-1">Skyward Dynamics · SGT University</div>
