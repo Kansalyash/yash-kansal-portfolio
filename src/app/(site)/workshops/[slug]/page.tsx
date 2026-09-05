@@ -98,12 +98,21 @@ export default async function WorkshopDetailPage({ params }: { params: Promise<{
                 {/* @ts-ignore */}
                 {workshop.recommendations.map((rec, idx) => (
                   <div key={idx} className="border border-accent/30 rounded-xl overflow-hidden shadow-lg">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={rec.image} alt={`Recommendation ${idx + 1}`} className="w-full h-auto" />
-                    <div className="p-4 bg-card">
-                      <div className="text-xs font-mono text-accent uppercase tracking-widest">{rec.org}</div>
-                      <div className="text-xs font-mono text-muted mt-1">Ref: {rec.ref} · Date: 21/11/2024</div>
-                    </div>
+                    {typeof rec === 'string' ? (
+                      <>
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src={rec} alt={`Recommendation ${idx + 1}`} className="w-full h-auto" />
+                      </>
+                    ) : (
+                      <>
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src={rec.image} alt={`Recommendation ${idx + 1}`} className="w-full h-auto" />
+                        <div className="p-4 bg-card">
+                          <div className="text-xs font-mono text-accent uppercase tracking-widest">{rec.org}</div>
+                          <div className="text-xs font-mono text-muted mt-1">Ref: {rec.ref} · Date: 21/11/2024</div>
+                        </div>
+                      </>
+                    )}
                   </div>
                 ))}
               </div>
