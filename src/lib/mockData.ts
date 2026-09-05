@@ -1,5 +1,28 @@
 export const mockWorkshops = [
   {
+    slug: 'sggs-nanded-drone-workshop',
+    title: 'Drone Technology Workshop',
+    institution: 'SGGSIE&T',
+    location: 'Nanded, Maharashtra',
+    date: '2024',
+    duration: '3 Days',
+    audience: 'Engineering Students & Tech Enthusiasts',
+    attendees: 150,
+    topics: ['Drone Technology', 'Flight Principles', 'UAV Applications', 'Practical Flying'],
+    hardware: ['Custom Drones', 'Flight Controllers', 'RC Transmitters'],
+    coverImage: '/workshops/sggs-nanded/img1.webp',
+    gallery: [
+      '/workshops/sggs-nanded/img1.webp',
+      '/workshops/sggs-nanded/img2.webp',
+      '/workshops/sggs-nanded/img3.webp',
+      '/workshops/sggs-nanded/img4.webp',
+      '/workshops/sggs-nanded/img5.webp'
+    ],
+    content: `Elevating technical skills of students with Day-1 of the Drone technology workshop at SGGSIE&T, Nanded!
+
+I had the privilege of conducting this comprehensive 3-day workshop for the students in Maharashtra in 2024. The enthusiasm and response from the students were incredibly good, and I thoroughly enjoyed sharing my passion for drone building and flight technology with them.`
+  },
+  {
     slug: 'ims-ghaziabad-drone-workshop',
     title: 'Drone Assembly and Flying Workshop',
     institution: 'IMS Engineering College',
@@ -10,12 +33,13 @@ export const mockWorkshops = [
     attendees: 120,
     topics: ['Drone Assembly', 'Simulation', 'Flying Sessions', 'IoT & Robotics'],
     hardware: ['Drone Kits', 'Flight Controllers', 'IoT Sensors'],
-    coverImage: '/certifications/ims-ghaziabad-lor.jpg',
+    coverImage: '/workshops/ims-ghaziabad/img1.jpg',
     gallery: [
+      '/workshops/ims-ghaziabad/img1.jpg',
       '/certifications/ims-ghaziabad-lor.jpg'
     ],
     recommendations: [
-      { image: '/certifications/ims-ghaziabad-lor.jpg', org: 'IMS Engineering College', ref: '30 Jul 2024' }
+      '/certifications/ims-ghaziabad-lor.jpg'
     ],
     content: `Excited to share a letter of recommendation highlighting my involvement in drone and robotics projects. Thank you, Dr. Pramod Singh, for your mentorship and support. Looking forward to continuing my journey in this field.`
   },
@@ -36,8 +60,8 @@ export const mockWorkshops = [
       '/certifications/maha-kumbh-lor.jpg'
     ],
     recommendations: [
-      { image: '/certifications/maha-kumbh-lor.jpg', org: 'Reviving India', ref: '18 Sep 2024' },
-      { image: '/certifications/maha-kumbh-certificate.jpg', org: 'Maha Kumbh-24', ref: 'Certificate of Appreciation' }
+      '/certifications/maha-kumbh-lor.jpg',
+      '/certifications/maha-kumbh-certificate.jpg'
     ],
     content: `Honored to be recognized for my dedication and hard work at the Maha Kumbh-24 Drone and Robotics Show. 
 
@@ -650,19 +674,23 @@ export const mockMoments = [
     slug: 'delhi-airport-birthday',
     title: 'Birthday at 30,000 Feet (Almost)',
     date: '18th August',
-    location: 'Delhi Airport',
+    location: 'Delhi Airport & In-Flight',
     image: '/moments/delhi-airport-birthday.jpg',
-    caption: `18th August — My Birthday. But instead of celebration, I was traveling back after a drone session at IIT Patna.
+    gallery: [
+      '/moments/delhi-airport-birthday.jpg',
+      '/moments/birthday-night-flight.jpg'
+    ],
+    caption: `18th August - My Birthday. But instead of celebration, I was traveling back after a drone session at IIT Patna.
 
-Late night at Delhi Airport, tired yet inspired, I couldn't resist touching the aircraft — aviation has always been close to my heart. ✈️
+Late night at Delhi Airport, tired yet inspired, I couldn't resist touching the aircraft - aviation has always been close to my heart. ✈️
 
 One of the crew members clicked this picture for me, and honestly, it turned out to be the best gift of the day.
 
-I believe moments like these are not just coincidences, but signals from the universe. One day, I dream to own and fly a plane like this. 🚀
+I believe moments like these are not just coincidences, but signals from the universe. One day, I dream to own and fly a plane like this. 🛩️
 
 Gratitude for the journey so far, and excitement for the runway ahead.
 
-– Yash Kansal`
+- Yash Kansal`
   },
   {
     slug: 'sumedh-v1-humanoid',

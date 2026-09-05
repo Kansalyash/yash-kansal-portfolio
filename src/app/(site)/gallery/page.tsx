@@ -120,9 +120,14 @@ export default function GalleryPage() {
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
           {mockMoments.map((moment, index) => (
             <div key={index} className="break-inside-avoid rounded-xl overflow-hidden border border-theme-border shadow-lg bg-theme-surface group">
-              <div className="h-72 overflow-hidden">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={moment.image} alt={moment.title} className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" />
+              <div className="h-72 flex overflow-x-auto snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+                {/* @ts-ignore */}
+                {(moment.gallery || [moment.image]).map((img, i) => (
+                  <div key={i} className="min-w-full h-full snap-center relative overflow-hidden">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={img} alt={`${moment.title} - ${i + 1}`} className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" />
+                  </div>
+                ))}
               </div>
               <div className="p-4">
                 <div className="flex items-center gap-2 text-xs font-mono text-theme-accent mb-2">
