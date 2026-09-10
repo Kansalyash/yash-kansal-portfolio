@@ -39,8 +39,10 @@ export default function ProjectsIndex() {
                     onMouseLeave={(e) => e.currentTarget.pause()}
                   />
                 ) : project.coverImage ? (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img src={project.coverImage} alt={project.title} className="w-full h-full object-cover object-top opacity-90 group-hover:opacity-100 transition-opacity group-hover:scale-105 duration-500" />
+                  <>
+                    <img src={project.coverImage} alt="" className="absolute inset-0 w-full h-full object-cover opacity-20 blur-2xl scale-125" />
+                    <img src={project.coverImage} alt={project.title} className="relative w-full h-full object-contain p-4 opacity-90 group-hover:opacity-100 transition-all group-hover:scale-105 duration-500" />
+                  </>
                 ) : (
                   <Rocket className="w-12 h-12 text-theme-muted group-hover:text-theme-accent transition-colors" />
                 )}

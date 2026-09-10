@@ -608,64 +608,131 @@ Thank you to everyone who supported us — excited to keep growing and take on e
 
 export const mockProjects = [
   {
-    slug: 'featured-project',
-    title: 'Featured Build',
-    timeline: '2025-2026',
-    role: 'Lead Engineer',
-    techStack: ['Robotics', 'Hardware', 'Control Systems'],
-    coverImage: '',
-    videoUrl: '/projects/featured-project/video.mp4',
-    gallery: [],
-    content: `A deep dive into one of my featured engineering builds.
-    
-*(Video demonstration attached)*`
-  },
-  {
-    slug: 'featured-project-2',
-    title: 'Hardware & Systems Integration',
-    timeline: '2025-2026',
-    role: 'Systems Engineer',
-    techStack: ['Mechatronics', 'Firmware', 'Systems Integration'],
-    coverImage: '',
-    videoUrl: '/projects/featured-project-2/video.mp4',
-    gallery: [],
-    content: `A showcase of hardware testing and systems integration in action.
-    
-*(Video demonstration attached)*`
-  },
-  {
-    slug: 'featured-project-3',
-    title: 'Engineering Demo 3',
-    timeline: '2025-2026',
-    role: 'Lead Engineer',
-    techStack: ['Robotics', 'Drones', 'Control Systems'],
-    coverImage: '',
-    videoUrl: '/projects/featured-project-3/video.mp4',
-    gallery: [],
-    content: `A live demonstration of engineering systems in action.
-    
-*(Video demonstration attached)*`
-  },
-  {
     slug: 'drone-grenade-dropping-system',
-    title: 'Drone Grenade Dropping System 🇮🇳',
+    title: 'Drone Grenade Dropping System 🇮🇳⚔️',
     timeline: '2025-2026',
     role: 'Lead Systems Engineer',
     techStack: ['Custom Drone Frame', 'Autonomous Flight', 'Payload Delivery', 'Mission Control', 'Defence Tech'],
     coverImage: '/projects/drone-grenade-system/img1.jpg',
     videoUrl: '',
+    summary: 'Autonomous custom drone payload delivery system designed for defence operations.',
     gallery: ['/projects/drone-grenade-system/img1.jpg'],
-    content: `🇮🇳 Serving those who serve the nation 🇮🇳
+    content: `🇮🇳⚔️ Serving those who serve the nation 🇮🇳⚔️
 
 An honour to work alongside our brave Army personnel, providing them with our custom-developed Drone Grenade Dropping System.
 
-💣 Autonomous. Precise. Mission-Ready.
+🚀 Autonomous. Precise. Mission-Ready.
 
 This system was built from the ground up — custom drone frame, precision payload delivery mechanism, and autonomous control architecture specifically designed to meet the demanding requirements of India's defence operations.
 
 Together, we're redefining aerial capabilities for India's defence.
 
-Jai Hind 🚁🇮🇳`
+Jai Hind 🫡🇮🇳⚔️`
+  },
+  {
+    slug: 'custom-combat-robot',
+    title: 'Custom Combat Robot',
+    timeline: 'Recent Build',
+    role: 'Lead Designer & Engineer',
+    techStack: ['Mechanical Design', 'System Integration', 'Chassis Fabrication'],
+    coverImage: '/projects/custom-combat-robot/img1.jpg',
+    videoUrl: '',
+    summary: 'A combat robot built from scratch featuring a metal chassis and an extended fork assembly.',
+    gallery: ['/projects/custom-combat-robot/img1.jpg', '/projects/custom-combat-robot/img2.jpg', '/projects/custom-combat-robot/img3.jpg'],
+    content: `**Project Overview**
+- I designed and built this combat robot from scratch.
+- I handled the mechanical layout, assembly and launch process.
+- The build combines a metal chassis with four externally mounted wheels.
+- Side-mounted chains connect the wheels along each side of the robot.
+- An extended fork assembly defines the front of the machine.
+- This project brings together my mechanical design and system integration work.`
+  },
+  {
+    slug: 'large-frame-quadcopter',
+    title: 'Large-Frame Quadcopter',
+    timeline: 'Recent Build',
+    role: 'Drone Engineer',
+    techStack: ['Drone Assembly', 'Flight Electronics', 'System Integration'],
+    coverImage: '/projects/large-frame-quadcopter/img1.jpg',
+    videoUrl: '',
+    summary: 'A custom-built wide quadcopter integrating a central electronics deck and raised antenna.',
+    gallery: ['/projects/large-frame-quadcopter/img1.jpg', '/projects/large-frame-quadcopter/img2.jpg'],
+    content: `**Project Overview**
+- I custom-built this quadcopter around a wide, four-arm frame.
+- I handled the component layout and assembled the complete platform.
+- The central deck brings together the flight electronics and wiring.
+- A raised antenna module sits above the main electronics assembly.
+- This build highlights my work integrating an aerial robot from individual parts.`
+  },
+  {
+    slug: 's500-quadcopter-assembly',
+    title: 'S500 Quadcopter Assembly',
+    timeline: 'Recent Build',
+    role: 'Drone Engineer',
+    techStack: ['S500 Frame', 'Radio Receivers', 'Modular Drone Integration'],
+    coverImage: '/projects/s500-quadcopter-assembly/img1.jpg',
+    videoUrl: '',
+    summary: 'Custom quadcopter assembled on an S500 frame with exposed wiring and central electronics.',
+    gallery: ['/projects/s500-quadcopter-assembly/img1.jpg'],
+    content: `**Project Overview**
+- I assembled this custom quadcopter using an S500 frame platform.
+- I integrated four motors with the central electronics and radio receiver.
+- The open centre section makes the wiring and component layout visible.
+- I handled the physical assembly and the arrangement of onboard components.
+- This project demonstrates my hands-on approach to modular drone integration.`
+  },
+  {
+    slug: 'pink-accent-quadcopter',
+    title: 'Pink-Accent Quadcopter',
+    timeline: 'Recent Build',
+    role: 'Drone Engineer',
+    techStack: ['Custom Layout', 'Hardware Assembly', 'Quadcopter Design'],
+    coverImage: '/projects/pink-accent-quadcopter/img1.jpg',
+    videoUrl: '',
+    summary: 'A distinctive drone featuring pink accents, an elongated frame, and open wiring layout.',
+    gallery: ['/projects/pink-accent-quadcopter/img1.jpg', '/projects/pink-accent-quadcopter/img2.jpg'],
+    content: `**Project Overview**
+- I custom-built this quadcopter with a distinctive pink-accented layout.
+- Four red motors surround the elongated central frame.
+- The open body exposes the wiring and onboard component arrangement.
+- A raised pink antenna housing gives the build a recognisable profile.
+- I handled the assembly and integration of the mechanical and electrical parts.
+- This project reflects my approach to both component layout and presentation.`
+  },
+  {
+    slug: 'yellow-plate-quadcopter',
+    title: 'Yellow-Plate Quadcopter',
+    timeline: 'Recent Build',
+    role: 'Drone Engineer',
+    techStack: ['Compact Drone', 'Hardware Integration'],
+    coverImage: '/projects/yellow-plate-quadcopter/img1.jpg',
+    videoUrl: '',
+    summary: 'A compact custom build featuring a bright yellow upper plate on a black four-arm frame.',
+    gallery: ['/projects/yellow-plate-quadcopter/img1.jpg'],
+    content: `**Project Overview**
+- I assembled this compact quadcopter with a bright yellow upper plate.
+- The central plate sits above a black four-arm frame.
+- Red and yellow motor accents make the corners visually distinct.
+- I handled the physical build and the arrangement of the frame components.
+- This project showcases a simple, recognisable custom drone configuration.`
+  },
+  {
+    slug: 'illuminated-guarded-quadcopter',
+    title: 'Illuminated Guarded Quadcopter',
+    timeline: 'Recent Build',
+    role: 'Drone Engineer',
+    techStack: ['Propeller Guards', 'Lighting Integration', 'Top-Mounted Battery'],
+    coverImage: '/projects/illuminated-guarded-quadcopter/img1.jpg',
+    videoUrl: '',
+    summary: 'A visually striking drone with illuminated perimeter guards and a top-mounted battery.',
+    gallery: ['/projects/illuminated-guarded-quadcopter/img1.jpg'],
+    content: `**Project Overview**
+- I custom-built this quadcopter with guards surrounding all four propellers.
+- Orange perimeter components define the outline of the platform.
+- Illuminated edging gives the build a distinctive visual presence.
+- The battery is mounted along the top of the central assembly.
+- I integrated the frame, propulsion components and visible lighting layout.
+- This project combines hands-on drone assembly with a strong visual finish.`
   }
 ];
 
@@ -707,5 +774,58 @@ From a mere concept to a functioning humanoid robot, this journey has been nothi
 Here's to learning, building, and dreaming big!
 
 And yes – Happy 1st Birthday to SUMEDH V.1 🤖🎉`
+  }
+];
+
+export const mockArticles = [
+  {
+    title: "Drone Won't Arm? Here Are the Top 5 Reasons Why",
+    pubDate: "2026-05-23",
+    link: "https://medium.com/@the-yashkansal/drone-wont-arm-here-are-the-top-5-reasons-why-yash-kansal-4902f5a5ab81"
+  },
+  {
+    title: "How Two Broke College Students Built a Combat Robot and Won at IIT Roorkee - The Karmayodha Bots",
+    pubDate: "2026-05-21",
+    link: "https://medium.com/@the-yashkansal/how-two-broke-college-students-built-a-combat-robot-and-won-at-iit-roorkee-the-karmayodha-bots-6ab62fed0365"
+  },
+  {
+    title: "How I Choose the Right Battery for My Drone Builds",
+    pubDate: "2026-04-24",
+    link: "https://medium.com/@the-yashkansal/how-i-choose-the-right-battery-for-my-drone-builds-d6791fab1d88"
+  },
+  {
+    title: "Teaching Drone & AI at CIMAGE Patna | My Journey as a Drone Instructor",
+    pubDate: "2026-04-07",
+    link: "https://medium.com/@the-yashkansal/teaching-drone-ai-at-cimage-patna-my-journey-as-a-drone-instructor-yash-kansal-27c268d3d920"
+  },
+  {
+    title: "Witnessing the Future of India: My Experience as a Robotics Judge at SGT University",
+    pubDate: "2025-12-15",
+    link: "https://medium.com/@the-yashkansal/witnessing-the-future-of-india-my-experience-as-a-robotics-judge-at-sgt-university-92f508264f4f"
+  },
+  {
+    title: "Choosing the Right Drone Frame: Lessons from My Journey",
+    pubDate: "2025-09-14",
+    link: "https://medium.com/@the-yashkansal/choosing-the-right-drone-frame-lessons-from-my-journey-f8854274767f"
+  },
+  {
+    title: "GST Reform: What It Really Means for India's Drone Future",
+    pubDate: "2025-09-06",
+    link: "https://medium.com/@the-yashkansal/gst-reform-what-it-really-means-for-indias-drone-future-c4f7a65d98ff"
+  },
+  {
+    title: "What Teaching Robotics to Kids Taught Me About Life",
+    pubDate: "2025-08-27",
+    link: "https://medium.com/@the-yashkansal/what-teaching-robotics-to-kids-taught-me-about-life-79fcd968e77d"
+  },
+  {
+    title: "From Experiments to an Industry: The Drone Journey in India",
+    pubDate: "2025-08-26",
+    link: "https://medium.com/@the-yashkansal/from-experiments-to-an-industry-the-drone-journey-in-india-1d723d04bdca"
+  },
+  {
+    title: "DGCA's Crackdown on Illegal & Falsely Registered Drones in India",
+    pubDate: "2025-08-21",
+    link: "https://medium.com/@the-yashkansal/dgcas-crackdown-on-illegal-falsely-regestered-drones-in-india-ee01908705f6"
   }
 ];
