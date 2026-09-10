@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, Cpu, Plane, Trophy, Users, Crosshair, Battery, Radio, BookOpen } from "lucide-react";
+import { ArrowRight, Cpu, Plane, Trophy, Users, Crosshair, Battery, Radio, BookOpen, Play } from "lucide-react";
 import { mockProjects, mockMoments, mockArticles } from "@/lib/mockData";
 import { motion } from "framer-motion";
 
@@ -59,6 +59,14 @@ export default function Home() {
               className="px-8 py-4 border border-border text-foreground font-mono uppercase tracking-wider text-sm font-bold hover:border-accent hover:text-accent transition-all duration-300 hover:-translate-y-1 hover:bg-accent/5"
             >
               LinkedIn Profile
+            </a>
+            <a 
+              href="https://www.youtube.com/@skyward_dynamics" 
+              target="_blank"
+              rel="noreferrer"
+              className="px-6 py-4 border border-border text-foreground font-mono uppercase tracking-wider text-sm font-bold hover:border-red-500 hover:text-red-500 transition-all duration-300 hover:-translate-y-1 hover:bg-red-500/5 flex items-center gap-2"
+            >
+              <Play className="w-5 h-5" /> YouTube
             </a>
           </div>
         </motion.div>

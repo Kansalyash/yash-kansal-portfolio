@@ -1,4 +1,4 @@
-﻿import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar";
 
 export default function SiteLayout({
   children,
@@ -15,8 +15,12 @@ export default function SiteLayout({
             <p className="font-mono text-sm uppercase tracking-widest font-semibold text-foreground">Yash Kansal</p>
             <p className="text-muted text-sm mt-1">UAV & Robotics & Engineering</p>
           </div>
-          <div className="text-muted text-sm text-right">
+          <div className="flex flex-col md:items-end gap-2 text-muted text-sm text-left md:text-right">
             <p>Built around real projects, real experiments, and lessons from the field.</p>
+            <div className="flex gap-4 mt-2">
+              <a href="https://www.linkedin.com/in/yash-kansal-robotics-enthusiast" target="_blank" rel="noreferrer" className="hover:text-accent transition-colors font-mono uppercase text-xs tracking-widest">LinkedIn</a>
+              <a href="https://www.youtube.com/@skyward_dynamics" target="_blank" rel="noreferrer" className="hover:text-red-500 transition-colors font-mono uppercase text-xs tracking-widest">YouTube</a>
+            </div>
             <p className="mt-2 font-mono opacity-50">&copy; {new Date().getFullYear()} Yash Kansal. All rights reserved.</p>
           </div>
         </div>
