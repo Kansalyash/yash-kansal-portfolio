@@ -6,7 +6,7 @@ export const mockWorkshops = [
     location: 'Jaipur, Rajasthan',
     date: '2026',
     duration: '1 Day',
-    audience: 'School Students, Professionals & Army Personnel',
+    audience: 'Faculty, Army Personnel, Students & Field Professionals',
     attendees: 50,
     topics: ['Aeromodelling Basics', 'Drone Technology', 'Interactive Q&A', 'UAV Applications'],
     hardware: ['Various Drone Models', 'Fixed-Wing UAVs'],
@@ -20,7 +20,7 @@ export const mockWorkshops = [
 It was a great experience being invited as an **Expert Member** at the Malaviya National Institute of Technology (MNIT), Jaipur—a prestigious government institution—to conduct a one-day workshop on Aeromodelling and Drones.
 
 **A Diverse and Engaging Audience**
-What made the workshop truly special was the incredibly diverse group of participants. We had school students, working professionals, and Army personnel, all coming together with a common curiosity to learn more about the world of drones and aeromodelling.
+What made the workshop truly special was the incredibly diverse group of participants. We had faculty members, Army personnel, students, and professionals from various fields, all coming together with a common curiosity to learn more about the world of drones and aeromodelling.
 
 **Interactive Learning**
 Rather than being just a one-way lecture, it turned into a very engaging discussion. Participants actively asked questions, shared their thoughts, and explored different aspects of the technology with me. 
