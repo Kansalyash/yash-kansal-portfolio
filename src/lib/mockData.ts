@@ -415,6 +415,21 @@ The packed classrooms, curious eyes, and engaged students made every moment wort
 
 export const mockCompetitions = [
   {
+    slug: 'spectra-2026-aero-strike-drone-challenge',
+    event: 'SPECTRA 2026 - Aero Strike Drone Challenge',
+    institution: 'Shalom Presidency School, Gurugram',
+    year: '2026',
+    category: 'Drone Challenge / Robotics & Automation',
+    weightClass: 'Official Judge & Jury',
+    result: 'Esteemed Judge',
+    role: 'Drone Expert & Judge',
+    mainImage: '/competitions/spectra-2026-aero-strike/poster.jpg',
+    story: `Honoured to be cordially invited as the **Esteemed Judge & Drone Expert** for the **Aero Strike Drone Challenge** at **SPECTRA 2026** (Shalom Platform for Exploration, Creativity, Technology, Robotics & Automation), organized by Shalom Presidency School, Gurugram on 28th October 2026.
+
+Evaluating young innovators, reviewing autonomous and piloted UAV flight maneuvers, and sharing practical insights from building 100+ drones made this event truly memorable. A proud milestone transitioning from competitive arenas to mentoring and inspiring the next generation of engineers and pilots.`
+  },
+
+  {
     slug: 'techutopia-uem-jaipur-drone-competition',
     event: 'TECHUTOPIA 2026 - Drone Competition',
     institution: 'University of Engineering & Management (UEM), Jaipur',
@@ -810,6 +825,20 @@ Jai Hind 🫡🇮🇳⚔️`
 ];
 
 export const mockMoments = [
+  {
+    slug: 'spectra-2026-judge-invitation',
+    title: 'Invited as Esteemed Judge at SPECTRA 2026',
+    date: '28th October 2026',
+    location: 'Shalom Presidency School, Gurugram',
+    image: '/moments/spectra-2026-judge.jpg',
+    gallery: [
+      '/moments/spectra-2026-judge.jpg'
+    ],
+    caption: `Honoured to be invited as the **Esteemed Judge & Drone Expert** for the **Aero Strike Drone Challenge** at SPECTRA 2026 (Shalom Presidency School, Gurugram).
+
+Mentoring, evaluating, and interacting with passionate young minds pushing boundaries in drone tech and robotics is always a privilege!`
+  },
+
   {
     slug: 'delhi-airport-birthday',
     title: 'Birthday at 30,000 Feet (Almost)',
